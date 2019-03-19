@@ -13,6 +13,7 @@ import java.util.Scanner;
 /**
  *
  * @author Juan Sebastian
+ *@autor Edward Ramos
  */
 public class Menu {
 
@@ -43,7 +44,9 @@ public class Menu {
         quemarMapa();
         buscar(mapaAbuelo,codigo);
     }
-
+    /**
+    *Metodo donde se hace la insercion de los datos
+    */
     private void quemarMapa() {
         mapaAbuelo = new HashMap<>();
         mapaAbuelo.put(1, new Persona(1, "Juan", "Galindo"));
